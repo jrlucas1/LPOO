@@ -1,7 +1,7 @@
 package model;
 
 public  abstract class Conta {
-    float saldo;
+    protected float saldo;
 
     public void deposita (float saldo) {
         this.saldo += saldo;
