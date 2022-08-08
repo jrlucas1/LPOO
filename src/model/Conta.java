@@ -1,13 +1,13 @@
 package model;
 
 public  abstract class Conta {
-    protected float saldo;
+    protected double saldo;
 
-    public void deposita (float saldo) {
+    public void deposita (double saldo) {
         this.saldo += saldo;
     }
 
-    public void saca (float saldo){
+    public void saca (double saldo){
         if(saldo > 0){
             this.saldo -= saldo;
         }
@@ -15,13 +15,13 @@ public  abstract class Conta {
             System.out.println("Você não tem saldo suficiente para fazer esta ação");
         }
     }
-    public void atualiza (float taxa){
+    public void atualiza (double taxa){
         this.saldo = this.saldo + (this.saldo * taxa/100);
     }
 
     public Conta(){}
 
-    public Conta (float saldo){
+    public Conta (double saldo){
         this.saldo = saldo;
     }
 }

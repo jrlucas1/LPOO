@@ -9,4 +9,9 @@ public class Associado  implements AssociadoVip{
     public double lucros(int qdeCotas, double valorCota) {
         return qdeCotas * valorCota;
     }
+
+    public Associado(){}
+    public Associado(String nome){
+        this.nome = nome;
+    }
 }

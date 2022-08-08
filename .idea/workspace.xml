@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Primeiro commit">
-      <change afterPath="$PROJECT_DIR$/src/model/Associado.java" afterDir="false" />
+    <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Adicionadas as instancias de cada classe e a coleção de contas.">
+      <change afterPath="$PROJECT_DIR$/src/controller/contasAssociadosController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Associado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Associado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ContaPoupanca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +52,8 @@
       <option name="presentableId" value="Default" />
       <updated>1659567796004</updated>
       <workItem from="1659567797574" duration="835000" />
-      <workItem from="1659817977358" duration="434000" />
+      <workItem from="1659817977358" duration="800000" />
+      <workItem from="1659980129268" duration="713000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit">
       <created>1659568494572</created>
@@ -57,7 +62,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659568494572</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Associado foi adicionado">
+      <created>1659818524777</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659818524777</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Git ignore">
+      <created>1659818714919</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659818714919</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +95,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeiro commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeiro commit" />
+    <MESSAGE value="Associado foi adicionado" />
+    <MESSAGE value="Git ignore" />
+    <MESSAGE value="Adicionadas as instancias de cada classe e a coleção de contas." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionadas as instancias de cada classe e a coleção de contas." />
   </component>
 </project>
