@@ -37,8 +37,21 @@ public class contasAssociadosController {
         associadoVips.add(as3);
         System.out.println(associadoVips);
 
+        System.out.println("\n\nAtulizando a conta poupança");
+        cpp1.deposita(1000);
+        System.out.println(cpp1);
+        cpp1.saca(50);
+        System.out.println(cpp1);
+        cpp1.atualiza(5);
+        System.out.println(cpp1);
 
+        System.out.println("\n\nAtulizando a conta corrente");
+        cc1.deposita(500);
+        System.out.println(cc1);
+        cc1.saca(400);
+        System.out.println(cc1);
 
+        System.out.println("\n\nInserindo cotas aos associados vips");
 
     }
 }
