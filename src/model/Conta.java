@@ -19,6 +19,10 @@ public  abstract class Conta {
         this.saldo = this.saldo + (this.saldo * taxa/100);
     }
 
+    public double getSaldo() {
+        return saldo;
+    }
+
     public Conta(){}
 
     public Conta (double saldo){

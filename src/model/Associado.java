@@ -18,9 +18,14 @@ public class Associado  implements AssociadoVip{
         this.valorCota = valorCota;
     }
 
+    public int getQdeCotas() {
+        return qdeCotas;
+    }
+
     public Associado(){}
-    public Associado(String nome){
+    public Associado(String nome, int qdeCotas){
         this.nome = nome;
+        this.qdeCotas = qdeCotas;
     }
 
     @Override
@@ -28,7 +33,6 @@ public class Associado  implements AssociadoVip{
         return "Associado{" +
                 "nome='" + nome + '\'' +
                 ", qdeCotas=" + qdeCotas +
-                ", valorCota=" + valorCota +
                 '}';
     }
 }
