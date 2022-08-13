@@ -60,11 +60,17 @@ public class contasAssociadosController {
         System.out.println("\n\nAssociados Vip");
         System.out.println(associadoVips);
 
-        // printar a lista ordenada pelo numero de cotas
         System.out.println("\n\nImprimindo os associados ordenando pelo numero de cotas");
         associadoVips.sort(Comparator.comparing(AssociadoVip::getQdeCotas).reversed());
         System.out.println(associadoVips);
 
+        System.out.println("\n\nImprimindo os associados com maior numero de cotas");
+        double max_cotas = associadoVips.stream().max(Comparator.comparing(AssociadoVip::getQdeCotas)).get().getQdeCotas();
+        for(AssociadoVip associado:associadoVips) {
+            if (associado.getQdeCotas() == max_cotas) {
+                System.out.println(associado);
+            }
+        }
 
         System.out.println("\n\nImprimindo as contas ordenadas pelo saldo");
         contas.sort(Comparator.comparing(Conta::getSaldo).reversed());
