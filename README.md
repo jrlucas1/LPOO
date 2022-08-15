@@ -1,2 +1,2 @@
 # objetivo2
-Objetivo 2 da disciplina de LPOO
+Objetivo 1 e 2 da disciplina de LPOO
