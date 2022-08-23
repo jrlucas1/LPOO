@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Refatoração do projeto">
-      <change afterPath="$PROJECT_DIR$/objetivo3/src/controller/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objetivo3/src/model/Fornecedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objetivo3/src/model/Fornecimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objetivo3/src/model/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objetivo3/src/model/Gerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objetivo3/src/model/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objetivo3/src/model/Pedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objetivo3/src/model/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objetivo3/src/model/Vendedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Imprimindo os associados com maior numero de cotas">
+      <change afterPath="$PROJECT_DIR$/objetivo3/model/Pedidos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,19 +33,99 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/aluno/IdeaProjects/objetivo2/objetivo2/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\joaor\IdeaProjects\untitled\objetivo2" />
-    </key>
+}]]></component>
+  <component name="RunManager" selected="Application.controllerAluno">
+    <configuration name="contasAssociadosController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.contasAssociadosController" />
+      <module name="objetivo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="controllerAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.controllerAluno" />
+      <module name="objetivo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="controller.contasAssociadosController (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="controller.contasAssociadosController" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="controller.contasAssociadosController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="controller.contasAssociadosController" />
+      <module name="objetivo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="obj1e2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="obj1e2" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.controllerAluno" />
+        <item itemvalue="Application.contasAssociadosController" />
+        <item itemvalue="Application.controller.contasAssociadosController (1)" />
+        <item itemvalue="Application.controller.contasAssociadosController" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,8 +142,9 @@
       <workItem from="1660176798371" duration="71000" />
       <workItem from="1660264184569" duration="3043000" />
       <workItem from="1660397232471" duration="1073000" />
-      <workItem from="1660524010875" duration="344000" />
-      <workItem from="1661215840306" duration="744000" />
+      <workItem from="1660822026117" duration="260000" />
+      <workItem from="1660822309292" duration="56000" />
+      <workItem from="1660824346266" duration="750000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit">
       <created>1659568494572</created>
@@ -120,28 +195,7 @@
       <option name="project" value="LOCAL" />
       <updated>1660398293735</updated>
     </task>
-    <task id="LOCAL-00008" summary="Refatoração do projeto">
-      <created>1660524166959</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1660524166959</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Refatoração do projeto">
-      <created>1660524254521</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1660524254521</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Refatoração do projeto">
-      <created>1660524315895</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1660524315895</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +220,6 @@
     <MESSAGE value="Feitas movimentações nas classes instanciadas" />
     <MESSAGE value="Feita ordenações nas listas" />
     <MESSAGE value="Imprimindo os associados com maior numero de cotas" />
-    <MESSAGE value="Refatoração do projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatoração do projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Imprimindo os associados com maior numero de cotas" />
   </component>
 </project>
