@@ -7,4 +7,7 @@ public class Fornecimento {
     private double valorTotal;
     private Produto produto;
     private Fornecedor fornecedor;
+
+
+
 }
