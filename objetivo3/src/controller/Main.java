@@ -23,5 +23,7 @@ public class Main {
         pedido1.setTipo(Tipo.P);
         System.out.println(pedido1);
 
+        List<Venda>
+
     }
 }
