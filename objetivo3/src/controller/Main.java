@@ -13,9 +13,9 @@ public class Main {
 
         List<Item> itens = new ArrayList<>();
 
-        Produto produto1 = new Produto("1", "Celular", 10, 400);
+        Produto produto1 = new Produto("1", "Celular", 2, 400);
 
-        Item item1 = new Item("1", 0, produto1, 3);
+        Item item1 = new Item("1", 0, produto1, 2);
         itens.add(item1);
 
         Pedido pedido1 = new Pedido(1, new Date() , 3.5, Tipo.A, vendedor1, itens);
@@ -23,7 +23,10 @@ public class Main {
         pedido1.setTipo(Tipo.P);
         System.out.println(pedido1);
 
-        List<Venda>
+
+        Venda venda1 = new Venda("1", pedido1);
+        System.out.println(venda1);
+
 
     }
 }

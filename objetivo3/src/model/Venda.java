@@ -16,6 +16,16 @@ public class Venda {
         this.pedido = pedido;
         this.vendedor = pedido.getVendedor();
         this.itens = pedido.getItens();
-        this.produto = pedido.get
+    }
+
+    @Override
+    public String toString() {
+        return "Venda{" +
+                "id='" + id + '\'' +
+                ", pedido=" + pedido +
+                ", vendedor=" + vendedor +
+                ", itens=" + itens +
+                ", produto=" + produto +
+                '}';
     }
 }

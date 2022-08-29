@@ -46,6 +46,13 @@ public class Item {
         this.produto = produto;
         this.quantidade = quantidade;
         this.valor = produto.getPreco() * quantidade;
+
+        if(produto.getQuantidade() >= quantidade){
+            produto.setQuantidade(produto.getQuantidade() - quantidade);
+        }
+        else{
+            throw new Excecoes.EstoqueInsuficienteException();
+        }
     }
 
     @Override
