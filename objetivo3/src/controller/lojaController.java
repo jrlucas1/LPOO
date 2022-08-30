@@ -50,8 +50,14 @@ public class lojaController {
         Fornecedor fornecedor1 = new Fornecedor("123", "email@email.com", "Loja", produtos);
 
         //Fazendo o fornecimento
-        Fornecimento fornecimento1 = new Fornecimento(data1,200, produto1, fornecedor1, 10);
+        Fornecimento fornecimento1 = new Fornecimento(data1,15, produto1, fornecedor1, 10);
+        Fornecimento fornecimento2 = new Fornecimento(data1,30, produto2, fornecedor1, 15);
 
+
+        //Fazendo a lista de fornecimentos
+        List<Fornecimento> fornecimentos = new ArrayList<>();
+        fornecimentos.add(fornecimento1);
+        fornecimentos.add(fornecimento2);
 
 
 
