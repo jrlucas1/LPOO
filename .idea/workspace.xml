@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Implementada a exceção e a venda">
-      <change afterPath="$PROJECT_DIR$/objetivo3/src/controller/lojaController.java" afterDir="false" />
+    <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Começo da refatoração do codigo para o que é pedido no objetivo 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objetivo3/src/controller/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/objetivo3/src/model/Fornecedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo3/src/model/Fornecedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objetivo3/src/model/Fornecimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo3/src/model/Fornecimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objetivo3/src/model/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo3/src/model/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objetivo3/src/model/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo3/src/model/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo3/src/controller/lojaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo3/src/controller/lojaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo3/src/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo3/src/model/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,10 +124,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.lojaController" />
-        <item itemvalue="Application.controller.contasAssociadosController (1)" />
         <item itemvalue="Application.controllerAluno" />
         <item itemvalue="Application.contasAssociadosController" />
-        <item itemvalue="Application.controller.contasAssociadosController" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +152,8 @@
       <workItem from="1661770655536" duration="1025000" />
       <workItem from="1661787240802" duration="1019000" />
       <workItem from="1661788364810" duration="65000" />
-      <workItem from="1661871440184" duration="1617000" />
+      <workItem from="1661871440184" duration="1650000" />
+      <workItem from="1661899142890" duration="1303000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit">
       <created>1659568494572</created>
@@ -216,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661788412735</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Começo da refatoração do codigo para o que é pedido no objetivo 3">
+      <created>1661873091462</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661873091462</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +244,7 @@
     <MESSAGE value="Feita ordenações nas listas" />
     <MESSAGE value="Imprimindo os associados com maior numero de cotas" />
     <MESSAGE value="Implementada a exceção e a venda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementada a exceção e a venda" />
+    <MESSAGE value="Começo da refatoração do codigo para o que é pedido no objetivo 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Começo da refatoração do codigo para o que é pedido no objetivo 3" />
   </component>
 </project>
