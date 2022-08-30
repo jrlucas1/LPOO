@@ -1,7 +1,7 @@
 package model;
 
 public class Funcionario {
-    private int matricula;
+    private String matricula;
     private String nome;
     private String endereco;
     private String bairro;
@@ -9,11 +9,11 @@ public class Funcionario {
     private String cidade;
     private String estado;
 
-    public int getMatricula() {
+    public String getMatricula() {
         return matricula;
     }
 
-    public void setMatricula(int matricula) {
+    public void setMatricula(String matricula) {
         this.matricula = matricula;
     }
 
@@ -68,7 +68,7 @@ public class Funcionario {
     public Funcionario() {
     }
 
-    public Funcionario(int matricula, String nome, String endereco, String bairro, String cep, String cidade, String estado) {
+    public Funcionario(String matricula, String nome, String endereco, String bairro, String cep, String cidade, String estado) {
         this.matricula = matricula;
         this.nome = nome;
         this.endereco = endereco;

@@ -32,4 +32,11 @@ public class Fornecedor {
     public void setNome(String nome) {
         this.nome = nome;
     }
+    public Fornecedor(String cnpj, String contato, String nome, List<Produto> produtos) {
+        this.cnpj = cnpj;
+        this.contato = contato;
+        this.nome = nome;
+        this.produtos = produtos;
+    }
+
 }
