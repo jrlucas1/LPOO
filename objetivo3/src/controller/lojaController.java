@@ -13,7 +13,8 @@ public class lojaController {
         //Adicionando os produtos
         Produto produto1 = new Produto("1", "Lapis", 10, 1.5);
         Produto produto2 = new Produto("2", "Borracha", 15, 2.0);
-
+        System.out.println(produto1);
+        System.out.println(produto2);
         // lista de produtos
         List<Produto> produtos = new ArrayList<>();
         produtos.add(produto1);
@@ -39,7 +40,9 @@ public class lojaController {
         //Fazendo as vendas
         Venda venda1 = new Venda("1", pedido1);
         Venda venda2 = new Venda("2", pedido2);
-
+        for (Item item: itens1) {
+            System.out.println(item);
+        }
         //Lista de vendas
         List<Venda> vendas = new ArrayList<>();
         vendas.add(venda1);
@@ -58,7 +61,8 @@ public class lojaController {
         List<Fornecimento> fornecimentos = new ArrayList<>();
         fornecimentos.add(fornecimento1);
         fornecimentos.add(fornecimento2);
-
+        System.out.println(produto1);
+        System.out.println(produto2);
 
 
 
