@@ -20,4 +20,15 @@ public class Fornecimento {
 
         produto.setQuantidade(produto.getQuantidade() + quantidade);
     }
+
+    @Override
+    public String toString() {
+        return "\nFornecimento{" +
+                "data=" + data +
+                ", valorTotal=" + valorTotal +
+                ", produto=" + produto +
+                ", fornecedor=" + fornecedor +
+                ", quantidade=" + quantidade +
+                '}' +"\n";
+    }
 }

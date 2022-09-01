@@ -7,6 +7,9 @@
     <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Começo da refatoração do codigo para o que é pedido no objetivo 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objetivo3/src/controller/lojaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo3/src/controller/lojaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo3/src/model/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo3/src/model/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo3/src/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo3/src/model/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo3/src/model/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo3/src/model/Vendedor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +157,7 @@
       <workItem from="1661871440184" duration="1650000" />
       <workItem from="1661899142890" duration="1498000" />
       <workItem from="1661900736342" duration="135000" />
-      <workItem from="1661988844314" duration="306000" />
+      <workItem from="1661988844314" duration="1414000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit">
       <created>1659568494572</created>
@@ -233,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661900858774</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Começo da refatoração do codigo para o que é pedido no objetivo 3">
+      <created>1661989188448</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661989188448</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

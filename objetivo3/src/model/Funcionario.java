@@ -77,4 +77,16 @@ public class Funcionario {
         this.cidade = cidade;
         this.estado = estado;
     }
+
+    public String toString() {
+        return "\nFuncionario{" +
+                "matricula='" + matricula + '\'' +
+                ", nome='" + nome + '\'' +
+                ", endereco='" + endereco + '\'' +
+                ", bairro='" + bairro + '\'' +
+                ", cep='" + cep + '\'' +
+                ", cidade='" + cidade + '\'' +
+                ", estado='" + estado + '\'' +
+                '}';
+    }
 }

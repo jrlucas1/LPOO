@@ -11,8 +11,9 @@ public class Vendedor extends Funcionario{
         super(matricula, nome, endereco, bairro, cep, cidade, estado);
         this.local = local;
     }
-
     public void setPedidos(List<Pedido> pedidos) {
         this.pedidos = pedidos;
     }
+
+
 }

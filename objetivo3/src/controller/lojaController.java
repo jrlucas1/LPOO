@@ -37,6 +37,10 @@ public class lojaController {
         Pedido pedido1 = new Pedido(1,data1, 10, Tipo.A, vendedor1, itens1);
         Pedido pedido2 = new Pedido(2,data1, 11, Tipo.A, vendedor1, itens2);
 
+        List<Pedido> pedidos = new ArrayList<>();
+        pedidos.add(pedido1);
+        pedidos.add(pedido2);
+        vendedor1.setPedidos(pedidos);
         //Fazendo as vendas
         Venda venda1 = new Venda("1", pedido1);
         Venda venda2 = new Venda("2", pedido2);
@@ -47,7 +51,8 @@ public class lojaController {
         List<Venda> vendas = new ArrayList<>();
         vendas.add(venda1);
         vendas.add(venda2);
-
+        System.out.println("\n\nImprimindo as vendas");
+        System.out.println(vendas);
 
         //Criando o fornecedor
         Fornecedor fornecedor1 = new Fornecedor("123", "email@email.com", "Loja", produtos);
@@ -58,11 +63,14 @@ public class lojaController {
 
 
         //Fazendo a lista de fornecimentos
+        System.out.println("\n\nImprindo os produtos pós fornecimento e os fornecimentos");
         List<Fornecimento> fornecimentos = new ArrayList<>();
         fornecimentos.add(fornecimento1);
         fornecimentos.add(fornecimento2);
         System.out.println(produto1);
         System.out.println(produto2);
+
+        System.out.println(fornecimentos);
 
 
 
