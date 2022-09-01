@@ -41,18 +41,8 @@ public class lojaController {
         pedidos.add(pedido1);
         pedidos.add(pedido2);
         vendedor1.setPedidos(pedidos);
-        //Fazendo as vendas
-        Venda venda1 = new Venda("1", pedido1);
-        Venda venda2 = new Venda("2", pedido2);
-        for (Item item: itens1) {
-            System.out.println(item);
-        }
-        //Lista de vendas
-        List<Venda> vendas = new ArrayList<>();
-        vendas.add(venda1);
-        vendas.add(venda2);
-        System.out.println("\n\nImprimindo as vendas");
-        System.out.println(vendas);
+
+        System.out.println(pedidos);
 
         //Criando o fornecedor
         Fornecedor fornecedor1 = new Fornecedor("123", "email@email.com", "Loja", produtos);
@@ -71,8 +61,11 @@ public class lojaController {
         System.out.println(produto2);
 
         System.out.println(fornecimentos);
-
-
+        double soma = 0;
+        for (Fornecimento fornecimento:fornecimentos) {
+            soma +=  fornecimento.getValorTotal();
+        }
+        System.out.println("Total do fornecimento: R$" + soma);
 
     }
 }

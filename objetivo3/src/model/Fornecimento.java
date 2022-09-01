@@ -9,6 +9,10 @@ public class Fornecimento {
     private Fornecedor fornecedor;
     private int quantidade;
 
+    public double getValorTotal() {
+        return valorTotal;
+    }
+
     public Fornecimento() {
     }
 
