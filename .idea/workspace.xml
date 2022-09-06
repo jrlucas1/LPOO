@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Refatoração do projeto, removendo vendas e adicionando a soma do fornecimento.">
-      <change afterPath="$PROJECT_DIR$/objetivo5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objetivo5/src/main/java/controller/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objetivo5/src/main/java/model/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objetivo5/src/main/java/model/Depedente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objetivo5/src/main/java/model/Mensalidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objetivo5/src/main/java/model/Socio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Iniciando o Objetivo 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +156,7 @@
       <workItem from="1661900736342" duration="135000" />
       <workItem from="1661988844314" duration="1710000" />
       <workItem from="1662064926166" duration="1172000" />
-      <workItem from="1662401665309" duration="409000" />
+      <workItem from="1662401665309" duration="1320000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit">
       <created>1659568494572</created>
@@ -263,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662065455238</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Iniciando o Objetivo 5">
+      <created>1662402206440</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662402206440</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +291,7 @@
     <MESSAGE value="Implementada a exceção e a venda" />
     <MESSAGE value="Começo da refatoração do codigo para o que é pedido no objetivo 3" />
     <MESSAGE value="Refatoração do projeto, removendo vendas e adicionando a soma do fornecimento." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatoração do projeto, removendo vendas e adicionando a soma do fornecimento." />
+    <MESSAGE value="Iniciando o Objetivo 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iniciando o Objetivo 5" />
   </component>
 </project>
