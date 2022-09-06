@@ -1,6 +1,6 @@
 package dao;
 
-public class MensalidadeDAO {
+public class MensalidadeDAO extends BaseDAO{
 
     public static void main(String[] args) {
 
