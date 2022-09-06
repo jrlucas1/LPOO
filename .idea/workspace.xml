@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Iniciando o Objetivo 5">
+    <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Adicionando os getter e setters">
+      <change afterPath="$PROJECT_DIR$/objetivo5/src/main/java/dao/BaseDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,25 +33,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "/home/aluno/IdeaProjects/objetivo2/objetivo3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/aluno/IdeaProjects/objetivo2/objetivo3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.lojaController">
+    <configuration name="BaseDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dao.BaseDAO" />
+      <module name="objetivo5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="contasAssociadosController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="controller.contasAssociadosController" />
       <module name="objetivo2" />
@@ -123,6 +137,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.lojaController" />
+        <item itemvalue="Application.BaseDAO" />
         <item itemvalue="Application.controllerAluno" />
         <item itemvalue="Application.contasAssociadosController" />
       </list>
@@ -157,6 +172,7 @@
       <workItem from="1661988844314" duration="1710000" />
       <workItem from="1662064926166" duration="1172000" />
       <workItem from="1662401665309" duration="1320000" />
+      <workItem from="1662424491563" duration="753000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit">
       <created>1659568494572</created>
@@ -263,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662402206440</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Adicionando os getter e setters">
+      <created>1662424642139</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662424642139</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +315,7 @@
     <MESSAGE value="Começo da refatoração do codigo para o que é pedido no objetivo 3" />
     <MESSAGE value="Refatoração do projeto, removendo vendas e adicionando a soma do fornecimento." />
     <MESSAGE value="Iniciando o Objetivo 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iniciando o Objetivo 5" />
+    <MESSAGE value="Adicionando os getter e setters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando os getter e setters" />
   </component>
 </project>

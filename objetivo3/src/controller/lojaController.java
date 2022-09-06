@@ -67,5 +67,9 @@ public class lojaController {
         }
         System.out.println("Total do fornecimento: R$" + soma);
 
+
+        Item item3 = new Item("2", 0, produto2, 99); // Exceção
+
+
     }
 }
