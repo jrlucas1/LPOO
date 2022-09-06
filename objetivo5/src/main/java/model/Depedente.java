@@ -1,10 +1,14 @@
 package model;
 
+import java.util.List;
+
 public class Depedente {
     private Long cartao_dep;
     private String nom_dep;
     private String parentesco;
     private String email_dap;
+
+    private List<Socio> socios;
 
     public Long getCartao_dep() {
         return cartao_dep;

@@ -9,6 +9,7 @@ public class Socio {
     private String tel_socio;
     private String email_socio;
     private List<Categoria> categorias;
+    private List<Mensalidade> mensalidades;
 
     public Long getCartao_socio() {
         return cartao_socio;
