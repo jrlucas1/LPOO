@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Adicionando os getter e setters">
-      <change afterPath="$PROJECT_DIR$/objetivo5/src/main/java/dao/BaseDAO.java" afterDir="false" />
+    <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Readicionando a exceção ao objetivo3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/dao/BaseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/dao/BaseDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.lojaController">
+  <component name="RunManager" selected="Application.BaseDAO">
     <configuration name="BaseDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dao.BaseDAO" />
       <module name="objetivo5" />
@@ -136,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lojaController" />
         <item itemvalue="Application.BaseDAO" />
+        <item itemvalue="Application.lojaController" />
         <item itemvalue="Application.controllerAluno" />
         <item itemvalue="Application.contasAssociadosController" />
       </list>
@@ -172,7 +172,7 @@
       <workItem from="1661988844314" duration="1710000" />
       <workItem from="1662064926166" duration="1172000" />
       <workItem from="1662401665309" duration="1320000" />
-      <workItem from="1662424491563" duration="753000" />
+      <workItem from="1662424491563" duration="1208000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit">
       <created>1659568494572</created>
@@ -286,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662424642139</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Readicionando a exceção ao objetivo3">
+      <created>1662425479497</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662425479497</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +323,7 @@
     <MESSAGE value="Refatoração do projeto, removendo vendas e adicionando a soma do fornecimento." />
     <MESSAGE value="Iniciando o Objetivo 5" />
     <MESSAGE value="Adicionando os getter e setters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando os getter e setters" />
+    <MESSAGE value="Readicionando a exceção ao objetivo3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readicionando a exceção ao objetivo3" />
   </component>
 </project>
