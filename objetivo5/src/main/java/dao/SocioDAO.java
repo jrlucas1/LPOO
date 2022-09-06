@@ -24,7 +24,7 @@ public class SocioDAO extends BaseDAO{
         return socio;
     }
 
-    private static List<Socio>selectSocios() {
+    public static List<Socio>selectSocios() {
         final String sql = "SELECT * FROM socio ORDER BY id";
         try (
                 Connection conn = getConnection();
@@ -42,7 +42,7 @@ public class SocioDAO extends BaseDAO{
         }
     }
 
-    private Socio selectSocioById(long id){
+    public Socio selectSocioById(long id){
         final String sql = "SELECT * FROM socio WHERE id=?";
         try(
                 Connection conn = getConnection();
@@ -62,7 +62,7 @@ public class SocioDAO extends BaseDAO{
         }
     }
 
-    private List<Socio> selectSocioByName(String name) {
+    public List<Socio> selectSocioByName(String name) {
         final String sql = "SELECT * FROM socio WHERE nome LIKE ?";
         try (
                 Connection conn = getConnection();
