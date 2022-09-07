@@ -59,6 +59,19 @@ public class Socio {
         this.categorias = categorias;
     }
 
+    @Override
+    public String toString() {
+        return "Socio{" +
+                "cartao_socio=" + cartao_socio +
+                ", nome_socio='" + nome_socio + '\'' +
+                ", end_socio='" + end_socio + '\'' +
+                ", tel_socio='" + tel_socio + '\'' +
+                ", email_socio='" + email_socio + '\'' +
+                ", categorias=" + categorias +
+                ", mensalidades=" + mensalidades +
+                '}';
+    }
+
     //segSocio():long
     //consSocio(): string
 }

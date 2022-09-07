@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Modificação nos DAO'S">
+    <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Mudando os metodos que foram colocado como private pra public">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/dao/CategoriaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/dao/CategoriaDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/dao/DependenteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/dao/DependenteDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/dao/MensalidadeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/dao/MensalidadeDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/dao/SocioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/dao/SocioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/model/Socio.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/model/Socio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +51,29 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BaseDAO">
+  <component name="RunManager" selected="Application.SocioDAO">
     <configuration name="BaseDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dao.BaseDAO" />
+      <module name="objetivo5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocioDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dao.SocioDAO" />
       <module name="objetivo5" />
       <extension name="coverage">
         <pattern>
@@ -140,6 +156,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SocioDAO" />
         <item itemvalue="Application.BaseDAO" />
         <item itemvalue="Application.lojaController" />
         <item itemvalue="Application.controllerAluno" />
@@ -178,7 +195,8 @@
       <workItem from="1662401665309" duration="1320000" />
       <workItem from="1662424491563" duration="1347000" />
       <workItem from="1662427236797" duration="866000" />
-      <workItem from="1662468007424" duration="2097000" />
+      <workItem from="1662468007424" duration="2902000" />
+      <workItem from="1662552724106" duration="2331000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit">
       <created>1659568494572</created>
@@ -320,7 +338,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662428102748</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Adicionando funcoes ao SocioDAO">
+      <created>1662470273695</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1662470273695</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Mudando os metodos que foram colocado como private pra public">
+      <created>1662470321279</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1662470321279</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +386,23 @@
     <MESSAGE value="BaseDAO adicionado" />
     <MESSAGE value="Todos os DAO'S adicionados" />
     <MESSAGE value="Modificação nos DAO'S" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificação nos DAO'S" />
+    <MESSAGE value="Adicionando funcoes ao SocioDAO" />
+    <MESSAGE value="Mudando os metodos que foram colocado como private pra public" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mudando os metodos que foram colocado como private pra public" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/objetivo5/src/main/java/dao/SocioDAO.java</url>
+          <line>122</line>
+          <properties class="dao.SocioDAO" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
