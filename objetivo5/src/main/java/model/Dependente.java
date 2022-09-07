@@ -2,11 +2,11 @@ package model;
 
 import java.util.List;
 
-public class Depedente {
+public class Dependente {
     private Long cartao_dep;
     private String nom_dep;
     private String parentesco;
-    private String email_dap;
+    private String email_dep;
 
     private List<Socio> socios;
 
@@ -34,12 +34,12 @@ public class Depedente {
         this.parentesco = parentesco;
     }
 
-    public String getEmail_dap() {
-        return email_dap;
+    public String getEmail_dep() {
+        return email_dep;
     }
 
-    public void setEmail_dap(String email_dap) {
-        this.email_dap = email_dap;
+    public void setEmail_dep(String email_dep) {
+        this.email_dep = email_dep;
     }
 
     //reg_dep(): long;

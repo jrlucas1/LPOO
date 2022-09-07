@@ -34,7 +34,6 @@ public class SocioDAO extends BaseDAO{
             List<Socio> socios = new ArrayList<>();
             while (rs.next()) {
                 socios.add(resultSetToSocio(rs));
-                System.out.println(socios);
             }
             return socios;
         } catch (SQLException e) {
