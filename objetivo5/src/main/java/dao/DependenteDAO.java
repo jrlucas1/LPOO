@@ -2,7 +2,6 @@ package dao;
 
 import model.Dependente;
 
-import javax.xml.transform.Result;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -11,6 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DependenteDAO extends BaseDAO{
+
+    //fk_SocioDepedendente
     private static Dependente resultSetToDependente(ResultSet rs) throws SQLException {
 
         Dependente dependente = new Dependente();
@@ -26,7 +27,7 @@ public class DependenteDAO extends BaseDAO{
         final String sql = "SELECT * FROM dependente";
         try(Connection conn = getConnection();
             PreparedStatement ptstmt = conn.prepareStatement(sql);
-            ResultSet rs = ptstmt.getResultSet();){
+            ResultSet rs = ptstmt.getResultSet()){
 
             List<Dependente> dependentes = new ArrayList<>();
 
@@ -109,7 +110,7 @@ public class DependenteDAO extends BaseDAO{
             ptstmt.setString(2, dependente.getParentesco() );
             ptstmt.setString(3, dependente.getEmail_dep());
 
-            int count = ptstmt.executeUpdate();;
+            int count = ptstmt.executeUpdate();
 
             return count > 0;
         } catch (SQLException e) {
@@ -119,6 +120,20 @@ public class DependenteDAO extends BaseDAO{
 
     }
 
+    public static boolean deleteDependente(Long id){
+        final String sql = "UPDATE dependente SET status = false WHERE id=?";
+        try(Connection conn = getConnection();
+            PreparedStatement ptstmt = conn.prepareStatement(sql)){
+            ptstmt.setLong(1, id);
+
+            int count = ptstmt.executeUpdate();
+
+            return count > 0;
+        } catch (SQLException e) {
+           e.printStackTrace();
+           return false;
+        }
+    }
     public static void main(String[] args) {
 
     }

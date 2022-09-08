@@ -13,6 +13,7 @@ import java.util.List;
 
 public class SocioDAO extends BaseDAO{
 
+//fk_idCategoria
     private static Socio resultSetToSocio(ResultSet rs) throws SQLException {
         Socio socio = new Socio();
         socio.setCartao_socio(rs.getLong("id"));
@@ -118,6 +119,25 @@ public class SocioDAO extends BaseDAO{
            return false;
         }
     }
+
+    public static boolean deleteSocio(Long id){
+        final String sql = "UPDATE socio SET status = false WHERE id=?";
+        try(Connection conn = getConnection();
+            PreparedStatement ptstmt = conn.prepareStatement(sql)){
+
+            ptstmt.setLong(1, id);
+
+            int count = ptstmt.executeUpdate();
+
+            return count > 0;
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+
 
     public static void main(String[] args) {
     Socio socio1;
