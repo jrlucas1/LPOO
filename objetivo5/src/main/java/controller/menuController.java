@@ -13,7 +13,8 @@ public class menuController {
                 "1. Manter socios\n" +
                 "2. Manter dependentes\n" +
                 "3. Manter categoria\n" +
-                "4. Manter mensalidade\n");
+                "4. Manter mensalidade\n" +
+                "----------------------");
 
         opcao = input.nextInt();
 
