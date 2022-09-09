@@ -61,7 +61,7 @@ public class Socio {
 
     @Override
     public String toString() {
-        return "Socio{" +
+        return "\nSocio{" +
                 "cartao_socio=" + cartao_socio +
                 ", nome_socio='" + nome_socio + '\'' +
                 ", end_socio='" + end_socio + '\'' +

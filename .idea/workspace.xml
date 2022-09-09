@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Adicionando os controllers ao objetivo 5">
-      <change beforePath="$PROJECT_DIR$/objetivo3/src/model/Excecoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo3/src/exceptions/Excecoes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objetivo3/src/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo3/src/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/controller/socioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/controller/socioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/model/Socio.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/model/Socio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.menuController">
+  <component name="RunManager" selected="Application.socioController">
     <configuration name="BaseDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dao.BaseDAO" />
       <module name="objetivo5" />
@@ -99,34 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contasAssociadosController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="controller.contasAssociadosController" />
-      <module name="objetivo2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="controller.controllerAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controller.controllerAluno" />
-      <module name="objetivo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="controller.lojaController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="controller.lojaController" />
       <module name="objetivo3" />
@@ -153,13 +126,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="socioController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.socioController" />
+      <module name="objetivo5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.socioController" />
         <item itemvalue="Application.menuController" />
         <item itemvalue="Application.BaseDAO" />
         <item itemvalue="Application.SocioDAO" />
         <item itemvalue="Application.controller.lojaController" />
-        <item itemvalue="Application.controller.controllerAluno" />
       </list>
     </recent_temporary>
   </component>
