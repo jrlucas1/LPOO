@@ -30,10 +30,7 @@ public class socioController {
 
             switch (opcao) {
                 case 1:
-                    socio3.setNome_socio("Pedro");
-                    socio3.setEnd_socio("Avenida Bento Gonçalves");
-                    socio3.setTel_socio("53123456789");
-                    socio3.setEmail_socio("socio3@socios.com");
+
 
                     if(insertNewSocio(socio3))
                         System.out.println("O socio " + socio3 + "foi inserido com sucesso");

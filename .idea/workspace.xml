@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Adicionando os controllers ao objetivo 5">
+    <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="controller dos socios adicionado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/controller/dependenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/controller/dependenteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/controller/socioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/controller/socioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/model/Socio.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/model/Socio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/dao/DependenteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/dao/DependenteDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,6 +184,9 @@
       <workItem from="1662468007424" duration="2902000" />
       <workItem from="1662552724106" duration="2609000" />
       <workItem from="1662569928759" duration="2538000" />
+      <workItem from="1662750841146" duration="894000" />
+      <workItem from="1662831916441" duration="7000" />
+      <workItem from="1662919240791" duration="1714000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit">
       <created>1659568494572</created>
@@ -352,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662641874526</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="controller dos socios adicionado">
+      <created>1662750662198</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1662750662198</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,6 +401,7 @@
     <MESSAGE value="Mudando os metodos que foram colocado como private pra public" />
     <MESSAGE value="Adicionadas as funcões de inclusão e update para o Socio" />
     <MESSAGE value="Adicionando os controllers ao objetivo 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando os controllers ao objetivo 5" />
+    <MESSAGE value="controller dos socios adicionado" />
+    <option name="LAST_COMMIT_MESSAGE" value="controller dos socios adicionado" />
   </component>
 </project>

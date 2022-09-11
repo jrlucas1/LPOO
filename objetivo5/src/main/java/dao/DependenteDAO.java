@@ -44,7 +44,7 @@ public class DependenteDAO extends BaseDAO{
     }
 
     public static Dependente selectDependenteById(Long id){
-        final String sql = "SELECT * FROM dependente WHERE id=?";
+        final String sql = "SELECT * FROM dependente WHERE idsocio=?";
         try(Connection conn = getConnection();
             PreparedStatement ptstmt = conn.prepareStatement(sql)){
             ptstmt.setLong(1, id);
