@@ -6,11 +6,13 @@ import org.mariadb.jdbc.internal.com.read.resultset.SelectResultSet;
 import java.util.Scanner;
 
 import static dao.SocioDAO.*;
+import static java.lang.Integer.parseInt;
 
 public class socioController {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int opcao = 0;
+        String teste = null;
         String name = null;
         Long id = null;
 
@@ -30,7 +32,18 @@ public class socioController {
 
             switch (opcao) {
                 case 1:
-
+                    System.out.println("Informe o nome do socio que deseja inserir: ");
+                    teste = input.nextLine();
+                    socio3.setNome_socio(teste);
+                    System.out.println("Informe o email do socio que deseja inserir: ");
+                    teste = input.nextLine();
+                    socio3.setEmail_socio(teste);
+                    System.out.println("Informe o endereço do socio que deseja inserir: ");
+                    teste = input.nextLine();
+                    socio3.setEnd_socio(teste);
+                    System.out.println("Informe o telefone do socio que deseja inserir: ");
+                    teste = input.nextLine();
+                    socio3.setTel_socio(teste);
 
                     if(insertNewSocio(socio3))
                         System.out.println("O socio " + socio3 + "foi inserido com sucesso");
