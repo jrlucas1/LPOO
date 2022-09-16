@@ -20,4 +20,13 @@ public class Categoria {
     public void setId_cat(long id_cat) {
         this.id_cat = id_cat;
     }
+
+
+    @Override
+    public String toString() {
+        return "Categoria{" +
+                "id_cat=" + id_cat +
+                ", des_cat='" + des_cat + '\'' +
+                '}';
+    }
 }

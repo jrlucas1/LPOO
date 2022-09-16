@@ -19,6 +19,7 @@ public class DependenteDAO extends BaseDAO{
         dependente.setNom_dep(rs.getString("nome"));
         dependente.setParentesco(rs.getString("parentesco"));
         dependente.setEmail_dep(rs.getString("email"));
+        dependente.setSocio(rs.getLong("idsocio"));
 
         return dependente;
     }
@@ -27,7 +28,7 @@ public class DependenteDAO extends BaseDAO{
         final String sql = "SELECT * FROM dependente";
         try(Connection conn = getConnection();
             PreparedStatement ptstmt = conn.prepareStatement(sql);
-            ResultSet rs = ptstmt.getResultSet()){
+            ResultSet rs = ptstmt.executeQuery()){
 
             List<Dependente> dependentes = new ArrayList<>();
 
@@ -85,12 +86,14 @@ public class DependenteDAO extends BaseDAO{
     }
 
     public static boolean insertNewDependente(Dependente dependente){
-        final String sql = "INSERT INTO dependente (nome, parentesco, email) values (?, ?, ?)";
+        final String sql = "INSERT INTO dependente (nome, parentesco, email, idsocio) values (?, ?, ?, ?)";
         try(Connection conn = getConnection();
             PreparedStatement ptstmt = conn.prepareStatement(sql)){
             ptstmt.setString(1, dependente.getNom_dep());
             ptstmt.setString(2, dependente.getParentesco());
             ptstmt.setString(3, dependente.getEmail_dep());
+            ptstmt.setLong(4, dependente.getSocio());
+
 
             int count = ptstmt.executeUpdate();
 

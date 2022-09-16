@@ -1,14 +1,12 @@
 package model;
 
-import java.util.List;
-
 public class Dependente {
     private Long cartao_dep;
     private String nom_dep;
     private String parentesco;
     private String email_dep;
 
-    private List<Socio> socios;
+   private long socio;
 
     public Long getCartao_dep() {
         return cartao_dep;
@@ -40,6 +38,25 @@ public class Dependente {
 
     public void setEmail_dep(String email_dep) {
         this.email_dep = email_dep;
+    }
+
+    public long getSocio() {
+        return socio;
+    }
+
+    public void setSocio(long socio) {
+        this.socio = socio;
+    }
+
+    @Override
+    public String toString() {
+        return "Dependente{" +
+                "cartao_dep=" + cartao_dep +
+                ", nom_dep='" + nom_dep + '\'' +
+                ", parentesco='" + parentesco + '\'' +
+                ", email_dep='" + email_dep + '\'' +
+                ", socio=" + socio +
+                '}';
     }
 
     //reg_dep(): long;

@@ -8,7 +8,7 @@ public class Socio {
     private String end_socio;
     private String tel_socio;
     private String email_socio;
-    private List<Categoria> categorias;
+    private long categoria;
     private List<Mensalidade> mensalidades;
 
     public Long getCartao_socio() {
@@ -51,12 +51,13 @@ public class Socio {
         this.email_socio = email_socio;
     }
 
-    public List<Categoria> getCategorias() {
-        return categorias;
+
+    public long getCategoria() {
+        return categoria;
     }
 
-    public void setCategorias(List<Categoria> categorias) {
-        this.categorias = categorias;
+    public void setCategoria(long categoria) {
+        this.categoria = categoria;
     }
 
     @Override
@@ -67,7 +68,7 @@ public class Socio {
                 ", end_socio='" + end_socio + '\'' +
                 ", tel_socio='" + tel_socio + '\'' +
                 ", email_socio='" + email_socio + '\'' +
-                ", categorias=" + categorias +
+                ", categorias=" + categoria +
                 ", mensalidades=" + mensalidades +
                 '}';
     }

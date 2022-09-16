@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 import static dao.SocioDAO.*;
 import static java.lang.Integer.parseInt;
-
+import static dao.CategoriaDAO.*;
 public class socioController {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -32,6 +32,7 @@ public class socioController {
 
             switch (opcao) {
                 case 1:
+                    teste = input.nextLine();
                     System.out.println("Informe o nome do socio que deseja inserir: ");
                     teste = input.nextLine();
                     socio3.setNome_socio(teste);
@@ -44,14 +45,17 @@ public class socioController {
                     System.out.println("Informe o telefone do socio que deseja inserir: ");
                     teste = input.nextLine();
                     socio3.setTel_socio(teste);
-
+                    System.out.println(selectCategoria());
+                    System.out.println("Informe a categoria que deseja associar a esse socio");
+                    id = input.nextLong();
+                    socio3.setCategoria(id);
                     if(insertNewSocio(socio3))
                         System.out.println("O socio " + socio3 + "foi inserido com sucesso");
                     else
                         System.out.println("Houve um erro a inserir o socio.");
                     break;
                 case 2:
-                    selectSocios();
+                    System.out.println((selectSocios()));
                     break;
                 case 3:
                     System.out.println("Informe o nome que deseja pesquisar:");

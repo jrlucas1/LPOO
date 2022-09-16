@@ -26,11 +26,11 @@ public class SocioDAO extends BaseDAO{
     }
 
     public static List<Socio>selectSocios() {
-        final String sql = "SELECT * FROM socio ORDER BY id";
+        final String sql = "SELECT * FROM socio";
         try (
                 Connection conn = getConnection();
                 PreparedStatement ptstmt = conn.prepareStatement(sql);
-                ResultSet rs = ptstmt.getResultSet();
+                ResultSet rs = ptstmt.executeQuery();
         ) {
             List<Socio> socios = new ArrayList<>();
             while (rs.next()) {
@@ -83,13 +83,14 @@ public class SocioDAO extends BaseDAO{
     }
 
     public static boolean insertNewSocio(Socio socio){
-        final String sql = "INSERT INTO socio (nome, endereco, telefone, email) VALUES (?, ?, ?, ?)";
+        final String sql = "INSERT INTO socio (nome, endereco, telefone, email, idcategoria) VALUES (?, ?, ?, ?, ?)";
         try( Connection conn = getConnection();
              PreparedStatement ptstmt = conn.prepareStatement(sql);) {
             ptstmt.setString(1, socio.getNome_socio());
             ptstmt.setString(2, socio.getEnd_socio());
             ptstmt.setString(3, socio.getTel_socio());
             ptstmt.setString(4, socio.getEmail_socio());
+            ptstmt.setLong(5, socio.getCategoria());
 
             int count = ptstmt.executeUpdate();
 

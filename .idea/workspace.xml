@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="3532c749-1a55-40d6-8dd3-fc19e9c08d5c" name="Changes" comment="Controller dos dependentes adicionado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/controller/dependenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/controller/dependenteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/controller/socioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/controller/socioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/dao/CategoriaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/dao/CategoriaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/dao/DependenteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/dao/DependenteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/dao/SocioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/dao/SocioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/model/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/model/Dependente.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/model/Dependente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objetivo5/src/main/java/model/Socio.java" beforeDir="false" afterPath="$PROJECT_DIR$/objetivo5/src/main/java/model/Socio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +64,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.socioController">
+  <component name="RunManager" selected="Application.dependenteController">
     <configuration name="BaseDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dao.BaseDAO" />
       <module name="objetivo5" />
@@ -84,24 +91,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="contasAssociadosController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="controller.contasAssociadosController" />
-      <module name="objetivo2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="controller.lojaController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controller.lojaController" />
-      <module name="objetivo3" />
+    <configuration name="dependenteController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.dependenteController" />
+      <module name="objetivo5" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="controller.*" />
@@ -140,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dependenteController" />
         <item itemvalue="Application.socioController" />
         <item itemvalue="Application.menuController" />
         <item itemvalue="Application.BaseDAO" />
         <item itemvalue="Application.SocioDAO" />
-        <item itemvalue="Application.controller.lojaController" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +177,8 @@
       <workItem from="1662750841146" duration="894000" />
       <workItem from="1662831916441" duration="7000" />
       <workItem from="1662919240791" duration="1785000" />
-      <workItem from="1663004008410" duration="1309000" />
+      <workItem from="1663004008410" duration="1326000" />
+      <workItem from="1663283834414" duration="2703000" />
     </task>
     <task id="LOCAL-00001" summary="Primeiro commit">
       <created>1659568494572</created>
@@ -369,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662921031609</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Controller dos dependentes adicionado">
+      <created>1663005334739</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1663005334739</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
