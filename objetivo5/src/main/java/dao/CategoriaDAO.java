@@ -1,6 +1,7 @@
 package dao;
 
 import model.Categoria;
+import model.Dependente;
 import model.Socio;
 
 import java.sql.Connection;
@@ -33,6 +34,22 @@ public class CategoriaDAO extends BaseDAO{
         } catch (SQLException e) {
             e.printStackTrace();
             return null;
+        }
+    }
+    public static boolean insertNewCategoria(Categoria categoria){
+        final String sql = "INSERT INTO categoria (descricao) values (?)";
+        try(Connection conn = getConnection();
+            PreparedStatement ptstmt = conn.prepareStatement(sql)){
+            ptstmt.setString(1, categoria.getDes_cat());
+
+
+            int count = ptstmt.executeUpdate();
+
+            return count > 0;
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
         }
     }
     public static void main(String[] args) {

@@ -26,7 +26,7 @@ public class menuController {
                 dependenteController.main(null);
                 break;
             case 3:
-                System.out.println("Wip");
+                categoriaController.main(null);
                 break;
             case 4:
                 System.out.println("Wip");
