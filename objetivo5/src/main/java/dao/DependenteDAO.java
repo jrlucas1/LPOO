@@ -93,7 +93,7 @@ public class DependenteDAO extends BaseDAO{
             ptstmt.setString(2, dependente.getParentesco());
             ptstmt.setString(3, dependente.getEmail_dep());
             ptstmt.setLong(4, dependente.getSocio());
-
+            // status
 
             int count = ptstmt.executeUpdate();
 
